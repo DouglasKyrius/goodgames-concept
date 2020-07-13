@@ -1,0 +1,92 @@
+.trending {
+  margin-top: 5rem;
+
+  .card-list {
+    display: flex;
+    margin-top: 2.5rem;
+
+    .card {
+      height: 16rem;
+      width: 10rem;
+      border-radius: 1rem;
+
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+
+      background-color: grey;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      
+      transition: all .1s ease-in-out;
+
+      .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 10%;
+          margin-right: .5rem;
+        }
+  
+        p {
+          margin-top: .5rem;
+          color: #fff;
+          font-size: .9rem;
+          font-weight: 600;
+        }
+      }
+
+      .follow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+
+        border-radius: 1rem;
+        background-color: rgba(58, 102, 224, .5);
+
+        transition: all .15s ease-in-out;
+        img {
+          display: none;
+          opacity: 0;
+          max-width: 50px;
+        }
+      }
+
+      &:hover {
+        transform: scale(1.05);
+        .follow {
+          opacity: 1;
+          img {
+            display: inline-flex;
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .card:first-of-type {
+      background-image: url('./assets/img/trending/halov2.png');
+    }
+    .card:nth-of-type(2) {
+      background-image: url('./assets/img/trending/fortnite.png');
+    }
+    .card:nth-of-type(3) {
+      background-image: url('./assets/img/trending/valorant.png');
+    }
+    .card:nth-of-type(4) {
+      background-image: url('./assets/img/trending/cyberpunk.png');
+    }
+    .card:nth-of-type(5) {
+      background-image: url('./assets/img/trending/thelastofus.png');
+    }
+    .card:nth-of-type(6) {
+      background-image: url('./assets/img/trending/ori.png');
+    }
+  }
+}

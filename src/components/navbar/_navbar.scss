@@ -1,0 +1,110 @@
+$lightBlue: #adb9d9;
+
+nav {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  margin: 0 auto;
+  align-items: center;
+  height: 90px;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  align-items: center;
+
+  .logo-icon {
+    fill: #308BE6;
+    width: 34px;
+    cursor: pointer;
+  }
+  
+  .separator {
+    opacity: .7;
+    height: 1.7rem;
+    background-color: $lightBlue;
+    width: 1.5px;
+    margin: 0 1.1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $lightBlue;
+    font-weight: 600;
+    margin: 0 1rem;
+    transition: .05s ease-in-out;
+  
+    &:hover {
+      color: #dee1eb;
+    }
+  }
+}
+
+.center {
+  margin-left: 1rem;
+  input {
+    border: none;
+    outline: none;
+
+    background-color: #212045;
+    background-image: url('./assets/img/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.6rem;
+
+    color: #e7e9f0;
+    font-size: 1rem;
+
+    padding: 10px;
+    padding-left: 36px;
+    border-radius: 10px;
+    width: 50%;
+
+    transition: all .2s ease-in-out;
+    &::placeholder{
+      color: #a3a3a3;
+    }
+
+    &:focus {
+      border: 1px solid #4b5ffd;
+      font-weight: 600;
+    }
+  }
+}
+
+.right {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+
+  button {
+    padding: 11px 20px;
+    margin: 0 .5rem;
+
+    color: #e7e9f0;
+    font-weight: 600;
+
+    transition: all .05s ease-in-out;
+  }
+
+  button:first-child {
+    background-color: #3a3d63;
+    &:hover {
+      background-color: #272942;
+    }
+  }
+
+  button:last-child {
+    background: linear-gradient(to right, #4b5ffd, #1841d3);
+    &:hover {
+      background: linear-gradient(to left, #4b5ffd, #1841d3);
+      box-shadow: 0 0 5px rgba(79, 118, 255, 1);
+    }
+  }
+}

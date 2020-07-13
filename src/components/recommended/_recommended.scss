@@ -1,0 +1,192 @@
+.recommended {
+  margin-top: 7rem;
+}
+
+.articles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+
+  .mainArticle,
+  .smallArticle {
+    border-radius: 1rem;
+  }
+
+  .mainArticle {
+    width: 650px;
+    height: 405px;
+    margin-right: 2rem;
+
+    background-image: url('./assets/img/recommended/valorant-wp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45rem;
+    
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    .linear-background {
+      display: grid;
+      grid-template-columns: 24% 1fr 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      height: 100%;
+      border-radius: 1rem;
+      background-image: linear-gradient(to bottom, rgba(58, 102, 224, 0), rgba(16, 23, 43, 1));
+      
+      &:hover {
+        background-image: linear-gradient(to bottom, rgba(58, 102, 224, 0), rgb(44, 51, 73));
+      }
+    }
+
+    .date {
+      display: flex;
+      padding: 1rem;
+      align-self: flex-start;
+      grid-column: 1 / 4;
+      img {
+        width: 50px;
+        border-radius: 1.25rem 1.25rem 1.25rem 0;
+      }
+      .date-name {
+        color: #fff;
+        padding: .25rem;
+        p {
+          padding: .15rem;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+
+    .valorant-game {
+      width: 125px;
+      height: 175px;
+      align-self: flex-end;
+
+      border-radius: 0 1rem;
+
+      background-image: url('./assets/img/recommended/valorant.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 125px;
+
+      transition: all .25s ease-in-out;
+      &:hover {
+        background-size: 130px;
+      }
+    }
+
+    .text {
+      color: #fff;
+      font-weight: 600;
+      grid-column: 2 / 4;
+      align-self: flex-end;
+      .subText {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        color: #acb3c9;
+        font-weight: normal;
+        font-size: .8em;
+      }
+    }
+
+    &:hover {
+      background-size: 48rem;
+    }
+  }
+  .smallArticle{
+    width: 305px;
+    height: 190px;
+    background-image: url('./assets/img/recommended/torchlight-wp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25rem;
+
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    .linear-background {
+      display: grid;
+      grid-template-columns: 24% 1fr 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      height: 100%;
+      border-radius: 1rem;
+      background-image: linear-gradient(to bottom, rgba(58, 102, 224, 0), rgba(16, 23, 43, 1));
+      
+      &:hover {
+        background-image: linear-gradient(to bottom, rgba(58, 102, 224, 0), rgb(44, 51, 73));
+      }
+    }
+
+    .date {
+      display: flex;
+      padding: 1rem;
+      align-self: flex-start;
+      grid-column: 1 / 4;
+      img {
+        width: 45px;
+        border-radius: 1.5rem 1.5rem 1.5rem 0;
+      }
+      .date-name {
+        color: #fff;
+        padding: .25rem;
+        font-size: 0.8rem;
+        p {
+          padding: .15rem;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+
+    .wp-game {
+      width: 60px;
+      height: 90px;
+      align-self: flex-end;
+
+      border-radius: 0 1rem;
+
+      background-image: url('./assets/img/recommended/torchlight.webp');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 85px;
+
+      transition: all .25s ease-in-out;
+      &:hover {
+        background-size: 95px;
+      }
+    }
+
+    .text {
+      color: #fff;
+      font-weight: 600;
+      grid-column: 2 / 4;
+      align-self: center;
+      // align-items: center;
+    }
+
+    &:hover {
+      background-size: 27rem;
+    }
+  }
+
+  .smallArticle:nth-of-type(2){
+    background-color: cyan;
+    background-image: url('./assets/img/recommended/horizon-wp2.jpg');
+    background-size: 27rem;
+    margin-top: 1.5rem;
+
+    .wp-game {
+      background-image: url('./assets/img/recommended/horizon.jpg');
+      background-size: 86px;
+
+      &:hover {
+        background-size: 96px;
+      }
+    }
+
+    &:hover {
+      background-size: 30rem;
+    }
+  }
+}

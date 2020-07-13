@@ -1,0 +1,47 @@
+.firstContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+
+  .leftHeader {
+    p {
+      color: #4e60ff;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+  
+    h1 {
+      color: #fff;
+      font-weight: 800;
+      font-size: 3rem;
+    }
+  
+    button {
+      padding: 16px 20px;
+      margin-top: 5rem;
+
+      color: #fff;
+      font-weight: 600;
+      background: linear-gradient(to right, #4b5ffd, #1841d3);
+
+      img {
+        margin-left: 1rem;
+        width: 15%;
+      }
+      transition: all .1s ease-in-out;
+      &:hover{
+        box-shadow: 0 0 12px rgba(79, 118, 255, 1);
+      }
+    }
+  }
+
+  .rightHeader {
+    z-index: 2;
+    margin-left: -8rem;
+    img {
+      width: 110%;
+    }
+  }
+}

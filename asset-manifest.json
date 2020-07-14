@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/goodgames-concept/static/css/main.0ab28f10.chunk.css",
+    "main.js": "/goodgames-concept/static/js/main.3ce30303.chunk.js",
+    "main.js.map": "/goodgames-concept/static/js/main.3ce30303.chunk.js.map",
+    "runtime-main.js": "/goodgames-concept/static/js/runtime-main.ffeae706.js",
+    "runtime-main.js.map": "/goodgames-concept/static/js/runtime-main.ffeae706.js.map",
+    "static/js/2.701b42e9.chunk.js": "/goodgames-concept/static/js/2.701b42e9.chunk.js",
+    "static/js/2.701b42e9.chunk.js.map": "/goodgames-concept/static/js/2.701b42e9.chunk.js.map",
+    "index.html": "/goodgames-concept/index.html",
+    "precache-manifest.764b6fc7e59e65461d77b6ea2ce64b57.js": "/goodgames-concept/precache-manifest.764b6fc7e59e65461d77b6ea2ce64b57.js",
+    "service-worker.js": "/goodgames-concept/service-worker.js",
+    "static/css/main.0ab28f10.chunk.css.map": "/goodgames-concept/static/css/main.0ab28f10.chunk.css.map",
+    "static/js/2.701b42e9.chunk.js.LICENSE.txt": "/goodgames-concept/static/js/2.701b42e9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/goodgames-concept/static/media/valorant.5976c694.png",
+    "static/media/fire-icon.png": "/goodgames-concept/static/media/fire-icon.3979034b.png",
+    "static/media/kotaku.webp": "/goodgames-concept/static/media/kotaku.8518e9d6.webp",
+    "static/media/logo-icon.c58750c1.svg": "/goodgames-concept/static/media/logo-icon.c58750c1.svg",
+    "static/media/steam-logo.png": "/goodgames-concept/static/media/steam-logo.c89f3a10.png",
+    "static/media/usgamer-logo.jpg": "/goodgames-concept/static/media/usgamer-logo.6da635a4.jpg",
+    "static/media/wallpaperv2.png": "/goodgames-concept/static/media/wallpaperv2.0663d045.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffeae706.js",
+    "static/js/2.701b42e9.chunk.js",
+    "static/css/main.0ab28f10.chunk.css",
+    "static/js/main.3ce30303.chunk.js"
+  ]
+}
